@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  hardhat:
+    build: .
+    command: bash deploy.sh
+    volumes:
+      - .:/app
+
